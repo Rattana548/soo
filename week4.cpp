@@ -20,7 +20,7 @@ void main(){
 		cout << "Enter Product Name : ";
 		cin >> name[i];
 		cout << "price : ";
-		cin >> price[0][i];
+		cin >> "\t"<<price[0][i];
 	}
 	cout << setfill(' ') << "No." << setw(10) << "Product" << setw(20)<<"Price"<<setw(20)<<"Vat7%"<<setw(20)<<"Net"<<endl;
 	
